@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault();        
         if (formInside.value) {      
             if (yesButton.checked) {
-                console.log("Это один из любимых фильмов!");
+                console.log("Это один из любимых фильмов)");
             }
             if (formInside.value.length > 21) {
                 formInside.value = (formInside.value.substring(0, 19) + '...');
